@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        My first HTML website
+    </title>
+</head>
+
+<body style="background-color: #2B2D31; color: #949B8A;">
+    <header style= "text-align: center; font-size: 0.8em; color: #ffffff;">
+        <p>This is my first project</p>
+    </header>
+
+    <span style= "text-align: center">
+        <h1>My Portfolio</h1>
+    </span>
+
+    <div style= "text-align: center">
+        <hr>
+        <a href= "/education.html" style="color: #ffffff;">Education</a>
+        <br><br>
+        <iframe width="99%" height="315" src="/education.html" title="window" frameborder="1"></iframe>
+        <hr>
+        <a href= "/expirience.html" style="color: #ffffff;">Expirience</a>
+        <br><br>
+        <iframe width="99%" height="315" src="/expirience.html" title="window" frameborder="1"></iframe>
+        <hr>
+        <a href= "/projects.html" style="color: #ffffff;">Projects</a>
+        <hr>
+    </div>
+
+    <footer>
+        <b style="color: #ffffff;">Contact me:</b> <br>
+        <form action= "/action.php">
+
+            Name: <input type="text" placeholder="Enter your name" style="width: 40%"> <br><br>
+
+            E-mail: <input type="text" placeholder="Enter your e-mail" style="width: 40%"> <br><br>
+
+            Phone no.: <input type="number" placeholder="Enter your phone number" style="width: 40%"> <br><br>
+            
+            City:
+            <select name="city" id="city">
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Banglore">Banglore</option>
+            </select> <br><br>
+
+            Class:
+            <label for="id1"><input type="radio" value="class X" name="class" id="id1">
+                Class X
+            </label>
+            <label for="id2"><input type="radio" value="class XII" name="class" id="id2">
+                Class XII
+            </label> 
+            <br><br>
+            Subjects: 
+            <label for="math">
+                <input type="checkbox" value="math" name="subject"> Math
+            </label>
+            <label for="phy">
+                <input type="checkbox" value="phy" name="subject"> Physics
+            </label>
+            <label for="chem">
+                <input type="checkbox" value="chem" name="subject"> Chemistry
+            </label>
+            <label for="cs">
+                <input type="checkbox" value="cs" name="subject"> Computer Science
+            </label>
+            <br><br>
+            Your feedback is precious! <br>
+            <textarea 
+                value="feedback" 
+                placeholder="Feedback" 
+                style="width: 90%; 
+                min-height: 100px; 
+                max-height: 500px;">
+            </textarea>
+            <br><br>
+            <input type="submit">
+
+        </form>
+    </footer>
+
+</body>
+</html>
