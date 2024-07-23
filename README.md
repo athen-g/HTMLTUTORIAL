@@ -1,4 +1,4 @@
-#My first HTML Project
+# My first HTML Project
 
 This is my first HTML Project.
 I had no proper plans while making this and just wanted to get my feet wet.
